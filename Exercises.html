@@ -2,14 +2,12 @@
 <html>
 
 <head>
-  <!-- Basic -->
+ 
   <link rel="icon" type="image/x-icon" href="favicon.png">
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <script src="echarts.min.js"></script>
-  <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
@@ -22,21 +20,16 @@
 
 
   <title> Sensei </title>
-
   <link rel="icon" type="image/x-icon" href="/images/favicon.png">
-
-  <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
-  <!--owl slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
-  <!-- font awesome style -->
+  
   <link href="css/font-awesome.min.css" rel="stylesheet" />
 
-  <!-- Custom styles for this template -->
+  
   <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
+  
   <link href="css/responsive.css" rel="stylesheet" />
 
 </head>
@@ -44,9 +37,9 @@
 <body class="sub_page">
 
   <div class="hero_area">
-    <!-- header section strats -->
+    
     <div class="hero_bg_box">
-      <!-- <img src="images/slider-bg.jpg" alt=""> -->
+    
     </div>
     <header class="header_section">
       <div class="container">
@@ -71,7 +64,7 @@
                 <a class="nav-link" href="about.html"> About</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="Exercises.html">Exercises</a>
+                <a class="nav-link" href="Info.html">Exercises</a>
               </li>
             
             </ul>
@@ -79,12 +72,12 @@
         </nav>
       </div>
     </header>
-    <!-- end header section -->
+    
   </div>
  
 
 
-  <!-- product section -->
+  
 
   <section class="product_section ">
     <div class="container">
@@ -102,10 +95,6 @@
     </div>
   </section>
 
-  <!-- <input type="text" id="txtinput"> -->
-  
-  
-  <!-- <h4 id="text">Angle</h4> -->
   <div id="" class="container">
 
     <div class="details">
@@ -451,12 +440,6 @@ h4{
     
   </style>
 
-
-
-
-
-
-  <!-- footer section -->
   <footer class="footer_section">
     <div class="container">
       <p>
@@ -465,52 +448,12 @@ h4{
       </p>
     </div>
   </footer>
-  <!-- footer section -->
-
-  <!-- jQery -->
+ 
 
 
 </body>
 
 </html>
-<!-- <script>
-  var graph = echarts.init(document.getElementById('main'));
-  option = {
-      legend: {},
-      xAxis: [
-          {
-              type: 'category',
-              axisTick: {
-                  alignWithLabel: true
-              },
-
-              data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-          }
-      ],
-      yAxis: [
-          {
-              type: 'value', name: 'Temprature', min: 0, max: 25, position: 'right',
-              axisLabel: { formatter: '{value} °C' }
-          },
-          {
-              type: 'value', name: 'Precipitation', min: 0, max: 250, position: 'left',
-              axisLabel: { formatter: '{value} ml' }
-          }
-      ],
-      series: [
-          {
-              name: 'Evaporation', type: 'bar', yAxisIndex: 0, data: [0.3, 0.6, 1, 2.4, 2.5, 7.6, 13.5]
-          },
-          {
-              name: 'Precipitation', type: 'bar', smooth: true, yAxisIndex: 1, data: [4, 7, 14, 28, 30, 68, 175]
-          },
-          {
-              name: 'Temprature', type: 'line', smooth: false, data: [2.1, 2.3, 3, 3.8, 6, 10.3, 20.4, 23]
-          }
-      ]
-  };
-graph.setOption(option);
-</script> -->
 <script>
   // import * as echarts from 'echarts';
 
@@ -775,16 +718,13 @@ exi++;
         }
         canvasCtx.save();
         canvasCtx.clearRect(0, 0, canvasElement.width, canvasElement.height);
-        // canvasCtx.drawImage(results.segmentationMask, 0, 0,
-        //                    canvasElement.width, canvasElement.height);
-      
-        // Only overwrite existing pixels.
+        
         canvasCtx.globalCompositeOperation = 'source-in';//brings video on screen and takes it off screen 
-        // canvasCtx.fillStyle ='#000000';
+        
 
         canvasCtx.fillRect(0, 0, canvasElement.width, canvasElement.height);
       
-        // Only overwrite missing pixels.
+        
         canvasCtx.globalCompositeOperation = 'destination-atop';
         canvasCtx.drawImage(
             results.image, 0, 0, canvasElement.width, canvasElement.height);
