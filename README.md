@@ -1,2 +1,2 @@
 # Sensei
-{https://yashasvichaurasiaiiitd.github.io/Sensei/}
+{Demo Link}https://yashasvichaurasiaiiitd.github.io/Sensei/
